@@ -5,6 +5,7 @@ import torch.nn as nn
 import utils
 from torch.autograd import Variable
 
+import pdb
 
 def instance_bce_with_logits(logits, labels):
     assert logits.dim() == 2
